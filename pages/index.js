@@ -33,7 +33,7 @@ export default function Home() {
       </header>
 
       {/* Body */}
-      <formcv className="flex flex-col items-center mt-44 flex-grow">
+      <form className="flex flex-col items-center mt-44 flex-grow">
         <Image
           src="https://www.google.co.uk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
           height={100}
@@ -45,7 +45,13 @@ export default function Home() {
           <input type="text" className="flex-grow focus:outline-none" />
           <MicrophoneIcon className=" h-5 mr-3 text-gray-500"/>
         </div>
-      </formcv>
+
+      <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
+        <button className="button">Google search</button>
+
+        <button className="button">I'm feeling lucky</button>
+      </div>
+      </form>
 
       {/* Footer */}
 
