@@ -33,7 +33,7 @@ export default function Home() {
       </header>
 
       {/* Body */}
-      <form>
+      <formcv className="flex flex-col items-center mt-44 flex-grow">
         <Image
           src="https://www.google.co.uk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
           height={100}
@@ -45,7 +45,7 @@ export default function Home() {
           <input type="text" className="flex-grow focus:outline-none" />
           <MicrophoneIcon className=" h-5 mr-3 text-gray-500"/>
         </div>
-      </form>
+      </formcv>
 
       {/* Footer */}
 
